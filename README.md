@@ -9,6 +9,8 @@ Projeto desenvolvido na disciplina de Programação Mobile com Android Avançada
 
 Integrantes do Grupo
 
-# Allan Costa Avelar
-# Diego Bueno da Silva
-# Fernanda Stefani Souza Malaquias
+Allan Costa Avelar
+
+Diego Bueno da Silva
+
+Fernanda Stefani Souza Malaquias
