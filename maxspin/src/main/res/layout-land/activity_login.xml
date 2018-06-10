@@ -3,11 +3,29 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TelaBackgroud"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context="br.com.gwaya.maxspin.Activity.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageViewBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:alpha="0.1"
+        app:srcCompat="@drawable/maxspin" />
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/TelaLogin"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:visibility="visible"
-    tools:context="br.com.gwaya.maxspin.LoginActivity">
+    tools:context="br.com.gwaya.maxspin.Activity.LoginActivity">
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -16,7 +34,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="visible"
-        tools:context="br.com.gwaya.maxspin.LoginActivity">
+        tools:context="br.com.gwaya.maxspin.Activity.LoginActivity">
 
         <ImageView
             android:id="@+id/imageViewLogin"
@@ -24,8 +42,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="15dp"
-            app:srcCompat="@mipmap/ic_launcher" />
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/maxspin" />
 
         <EditText
             android:id="@+id/LoginText"
@@ -33,9 +51,9 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="110dp"
+            android:layout_marginTop="100dp"
             android:ems="10"
-            android:hint="e-mail"
+            android:hint="@string/login"
             android:inputType="textEmailAddress" />
 
         <EditText
@@ -44,30 +62,30 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/LoginText"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:ems="10"
-            android:hint="senha"
+            android:hint="@string/senha"
             android:inputType="textPassword" />
 
         <Button
             android:id="@+id/buttonLogin"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/PasswordText"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp"
-            android:text="Entrar" />
+            android:layout_marginTop="10dp"
+            android:text="@string/botaoLogin" />
 
         <Button
             android:id="@+id/buttonResetSenha"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/buttonLogin"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="25dp"
-            android:text="Esqueceu sua senha?"
+            android:layout_marginBottom="10dp"
+            android:text="@string/reset"
             android:textAppearance="@style/TextAppearance.AppCompat.Notification.Line2" />
 
 
@@ -78,25 +96,27 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/TelaLoginFrameInferior"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:visibility="visible"
-        tools:context="br.com.gwaya.maxspin.LoginActivity">
+        tools:context="br.com.gwaya.maxspin.Activity.LoginActivity">
 
 
         <Button
             android:id="@+id/buttonRegistrar"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="15dp"
-            android:text="Registrar" />
+            android:layout_marginBottom="10dp"
+            android:text="@string/cadastrar" />
 
 
     </RelativeLayout>
+
+</RelativeLayout>
 
 </RelativeLayout>

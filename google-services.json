@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "615647484351",
+    "firebase_url": "https://maxspin-72c44.firebaseio.com",
+    "project_id": "maxspin-72c44",
+    "storage_bucket": "maxspin-72c44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615647484351:android:af8c1aabd41a934b",
+        "android_client_info": {
+          "package_name": "br.com.gwaya.maxspin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615647484351-nn3blt764a33fq5dm5b9e88ce53uia9r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.gwaya.maxspin",
+            "certificate_hash": "0a31172b42de79877ca5af2ca39b23934f28ee06"
+          }
+        },
+        {
+          "client_id": "615647484351-5to60kl5gubmso0tovi5kbu4tck90vpm.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "615647484351-5to60kl5gubmso0tovi5kbu4tck90vpm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4EB_2W7B8WoHV2DmGBlQUBSkIKtt2dog"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615647484351-5to60kl5gubmso0tovi5kbu4tck90vpm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

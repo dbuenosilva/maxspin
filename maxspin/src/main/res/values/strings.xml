@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MaxSpin</string>
+    <string name="login">e-mail</string>
+    <string name="senha">Digite sua senha</string>
+    <string name="botaoLogin">Entrar</string>
+    <string name="reset">Esqueceu sua senha?</string>
+    <string name="cadastrar">Registrar</string>
+    <string name="finalizarCadastro">Cadastrar</string>
+    <string name="ConfirmarSenha">Confirme sua senha</string>
+    <string name="Novologin">Informe seu e-mail</string>
+    <string name="NovaSenha">Crie uma senha</string>
+    <string name="Nome">Digite seu Nome</string>
+</resources>
