@@ -1,4 +1,4 @@
-# maxspin
+# MaxSpin Racing
 
 Projeto App Android MaxSpin Racing
 
