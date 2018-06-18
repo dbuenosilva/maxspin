@@ -10,4 +10,16 @@
     <string name="Novologin">Informe seu e-mail</string>
     <string name="NovaSenha">Crie uma senha</string>
     <string name="Nome">Digite seu Nome</string>
+    <string-array name="titulosDasTabs">
+        <item>"Rotações"</item>
+        <item>"Configurações"</item>
+    </string-array>
+    <string name="descricaoTabRotacao">"Monitor das Rotações capturadas!"</string>
+    <string name="descricaoTabConfiguracoes">"Defina o rotação máxima desejada"</string>
+    <string name="botaoLogout">Sair</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textRPM">RPM</string>
+
 </resources>

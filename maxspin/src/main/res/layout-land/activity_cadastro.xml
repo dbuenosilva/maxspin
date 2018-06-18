@@ -51,7 +51,7 @@
             android:inputType="textEmailAddress" />
 
         <EditText
-            android:id="@+id/PasswordText"
+            android:id="@+id/PasswordTextNovo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/NovoLoginText"
