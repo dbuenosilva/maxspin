@@ -29,7 +29,6 @@ import br.com.gwaya.maxspin.DAO.ConfiguracaoFirebase;
 
 public class LoginActivity extends AppCompatActivity {
 
-
     private FirebaseAuth autenticacao;
     private EditText login;
     private EditText senha;
@@ -50,7 +49,6 @@ public class LoginActivity extends AppCompatActivity {
         btnLogin = (Button) findViewById(R.id.buttonLogin);
         btnReset = (Button) findViewById(R.id.buttonResetSenha);
         btnRegistrar = (Button) findViewById(R.id.buttonRegistrar);
-
 
         if ( usuarioLogado() ) {
             abrirTelaMonitor();

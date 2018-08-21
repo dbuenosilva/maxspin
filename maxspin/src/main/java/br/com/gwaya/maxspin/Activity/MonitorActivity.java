@@ -20,35 +20,12 @@ public class MonitorActivity extends AppCompatActivity {
 
     private TabLayout mTabLayout;
     private ViewPager mViewPager;
-    private TextView rpm;
-    private SeekBar rmpMax;
-    private SeekBar.OnSeekBarChangeListener listener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_monitor);
-
-        rpm = (TextView) findViewById(R.id.textRPM);
-        rmpMax = (SeekBar) findViewById(R.id.seekBarRpm);
-        rmpMax.setOnSeekBarChangeListener(listener = new SeekBar.OnSeekBarChangeListener() {
-            @Override
-            public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
-                rpm.setText( i + "RPM");
-            }
-
-            @Override
-            public void onStartTrackingTouch(SeekBar seekBar) {
-
-            }
-
-            @Override
-            public void onStopTrackingTouch(SeekBar seekBar) {
-
-            }
-        }); {
-
-        }
 
         mTabLayout = (TabLayout) findViewById(R.id.TabLayout);
         mViewPager = (ViewPager) findViewById(R.id.ViewPager);
@@ -57,8 +34,6 @@ public class MonitorActivity extends AppCompatActivity {
                 getResources().getStringArray(R.array.titulosDasTabs)));
 
         mTabLayout.setupWithViewPager(mViewPager);
-
-
 
     }
 }

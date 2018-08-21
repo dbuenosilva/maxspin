@@ -20,6 +20,8 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="textRPM">RPM</string>
+    <string name="textRPM">7 RPM</string>
+    <string name="tituloRotacao">Rotação X</string>
+    <string name="descricaoRotacao">Rotação X Capturada às 08:30 de 19/08/2018</string>
 
 </resources>

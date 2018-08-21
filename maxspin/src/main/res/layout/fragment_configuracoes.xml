@@ -1,36 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="br.com.gwaya.maxspin.Fragments.ConfiguracoesFragment">
 
-    <Button
-        android:id="@+id/buttonLogout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/botaoLogout"
-        />
 
-    <SeekBar
-        android:id="@+id/seekBarRpm"
-        style="@style/Widget.AppCompat.SeekBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:min="7"
-        android:max="14"
-        android:progress="7" />
+        <Button
+            android:id="@+id/buttonLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/botaoLogout"
+            />
 
-    <TextView
-        android:id="@+id/textRPM"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
-        android:textAlignment="center"
-        android:textColor="@color/colorAccent"
-        android:textSize="56dp"
-        android:textStyle="bold"
-        android:gravity="center_horizontal|center_vertical"
-        android:text="@string/textRPM" />
+        <SeekBar
+            android:id="@+id/seekBarRpm"
+            style="@style/Widget.AppCompat.SeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:min="7"
+            android:max="14"
+            android:progress="7" />
+
+        <TextView
+            android:id="@+id/textRPM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="56dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/textRPM" />
+
 
 </FrameLayout>
